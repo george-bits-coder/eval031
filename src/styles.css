@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #3f3160;
+  min-height: 500px;
+}
+
+body {
+  background-color: #9266ff;
+}
+
+.recipeapp {
+  display: flex;
+
+  width: 80%;
+  padding: 2%;
+  margin: 40px auto;
+}
+
+#recipeform input {
+  background-color: rgb(27, 112, 137);
+  border: 0;
+  width: 200px;
+  height: 30px;
+  color: white;
+  font-size: 18px;
+  padding: 0 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+#recipeform input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#recipeform input:focus {
+  outline: none;
+}
+
+#recipeform button {
+  height: 30px;
+  width: 30%;
+  border-radius: 10px;
+  border: 0;
+  background-color: burlywood;
+  cursor: pointer;
+  color: navy;
+  font-weight: bolder;
+}
+
+#recipelist {
+  height: 200px;
+  width: 100%;
+  background-color: navy;
+  color: white;
+}
+
+#details {
+  height: 200px;
+  width: 100%;
+  background-color: crimson;
+  margin: 20px;
+  color: white;
+}
